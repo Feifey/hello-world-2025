@@ -4,7 +4,7 @@ let c = 6; // spacing between points
 function setup() {
   createCanvas(600, 600);
   angleMode(DEGREES);
-  background(255);
+  background(10);
   noStroke();
 }
 
