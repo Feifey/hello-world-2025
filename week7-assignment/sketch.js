@@ -8,9 +8,9 @@ let backgroundMusic;
 let mic; // Declare a microphone input variable
 
 function preload() {
-    clickSound = loadSound('Clicking Sound.mp3');
-    voiceSound = loadSound('Voice Sound.mp3');
-    backgroundMusic = loadSound('Background Music.mp3');
+    clickSound = loadSound('Clicking-Sound.mp3');
+    voiceSound = loadSound('Voice-Sound.mp3');
+    backgroundMusic = loadSound('Background-Music.mp3');
 }
 
 function setup() {
