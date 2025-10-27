@@ -37,7 +37,7 @@ function draw() {
     let volume = mic.getLevel();
 
     // Trigger dots based on microphone input
-    if (volume > 0.1) {
+    if (volume > 0.05) {
         const x = random(-width / 2, width / 2);
         const y = random(-height / 2, height / 2);
         const dotColor = color(random(255), random(255), random(255));
